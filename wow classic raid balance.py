@@ -22,10 +22,10 @@ raidComp = {'Warrior':8,
 'Hunter':3,
 'Rogue':6,
 'Priest':5,
-'Shaman':5,
-'Mage':7,
-'Warlock':4,
-'Druid':2}
+'Shaman':8,
+'Mage':6,
+'Warlock':5,
+'Druid':3}
 
 for key,value in data.items():
     if not (key is 'Shaman' or key is 'Paladin'):
