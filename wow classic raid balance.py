@@ -41,4 +41,4 @@ plt.title('Supply of Classes in Raids')
 plt.bar(data.keys(), data.values(),
         color=[(0.78,0.61,0.43), (0.96,0.55,0.73), (0.67,0.83,0.45), (1.00,0.96,0.41), (1,1,1), (0.00,0.44,0.87),
                (0.25,0.78,0.92), (0.53,0.53,0.93), (1.00,0.49,0.04)])
-plt.show()
+plt.savefig("results.png")
